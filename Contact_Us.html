@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This is our team who develope websites for personel who aspire for premium web development content">
+    <meta name="keywords"
+        content="web development, web dev, web development sites, hire web development,projects for web development,freelancing projects,paid projects for web dev">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap">
+    <style>
+        .navbar {
+            margin: -47px -8px;
+            font-family: 'Ubuntu', 'Courier New', Courier, monospace;
+        }
+
+        .navbar ul {
+            overflow: auto;
+            /*overflow is used to bring bg color which is lost in list style */
+        }
+
+        .navbar li {
+            float: right;
+            list-style: none;
+            padding: 3px;
+            margin: 12px 27px;
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            /*text decoration is used to override the underlined in navigation*/
+            color: blanchedalmond;
+            cursor: pointer;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            padding: 3px 4px;
+            width: 150px;
+        }
+
+        .navbar img {
+            float: left;
+            width: 87px;
+            margin: 31px 6px;
+            position: fixed;
+            left: 2px;
+        }
+
+        .navbar li a:hover{
+            color: rgb(45, 88, 62);
+        }
+
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(45, 88, 62);
+        }
+
+        .container {
+            /*border: 2px solid rebeccapurple;*/
+            margin: 128px 407px;
+            padding: 40px 30px;
+            width: 33%;
+            border-radius: 10px;
+        }
+
+        h1 {
+            margin: -9px 27px;
+            padding: 12px 10px;
+            font-size: 32px;
+        }
+
+        .form-group input {
+            text-align: center;
+            border-radius: 16px;
+            display: block;
+            font-size: 16px;
+            width: 236px;
+            margin: 20px auto;
+            padding: 12px 12px;
+            border: 3px solid black;
+            color: rgb(0, 0, 0);
+        }
+        .form-group #submit:hover{
+            color: darkmagenta;
+        }
+
+        #submit {
+            font-size: 37px;
+            text-align: center;
+            margin: -3px 16px;
+            padding: 11px 14px;
+        }
+
+        body {
+            background-image: url('https://media.gettyimages.com/photos/multicolored-glass-wall-picture-id157675600?s=2048x2048');
+        }
+
+        .footer {
+            font-family: 'Ubuntu', 'Courier New', Courier, monospace;
+            font-size: 21px;
+            text-align: center;
+            margin: 27px 10px;
+            padding: 0px 148px;
+            width: 1000px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <img src="toplogo.png" alt="image cannot be loaded">
+            <ul>
+                <li><a class="active" href="Contact_Us.html">
+                        <h3>contact us</h3>
+                    </a></li>
+                <li><a href="team.html">
+                        <h3>Team</h3>
+                    </a></li>
+                <li><a href="#">
+                        <h3>Services</h3>
+                    </a></li>
+                <li><a href="1st_website.html">
+                        <h3>Home</h3>
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>
+            <p>Let us know each other &#128522</p>
+        </h1>
+        <form action="noreaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Institution Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Phone number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Mail Address">
+            </div>
+            <div id="submit">
+                <input type="submit" value="Submit Now">
+                <input type="reset" value="Reset Now">
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>&copy; Copyright PLACID SOUL by Ishan Lahiri</p>
+            <p>&reg; All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
